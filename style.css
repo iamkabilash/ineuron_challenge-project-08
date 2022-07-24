@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    height: 50px;
+	width: 100%;
+}
+.nav-items h5{
+    display: inline;
+    color: #000;
+    margin-right: 60px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.nav-items h5:hover{
+    color: #000;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 1000;
+    letter-spacing: 0.5px;
+}
+.nav-items{
+    margin-left: 17%;
+}
+.logo{
+    width: 110px;
+    margin-left: 130px;
+    cursor: pointer;
+}
+.signin-btn{
+    margin-right: 100px;
+    margin-left: auto;
+    width: 110px;
+    height: 37px;
+    background: linear-gradient(to right, #ba55f9, #f87bf0);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.signin-btn:hover{
+    background: linear-gradient(to right, #a629f4, #f563ec);
+    cursor: pointer;
+}
+.intro-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-left: 130px;
+    margin-right: 50px;
+}
+.left-section{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+}
+.left-section h1{
+    font-size: 60px;
+    letter-spacing: 3px;
+    color: #29035e;
+}
+.left-section h4{
+    font-size: 16px;
+    color: #403e3e;
+    margin-top: 50px;
+    width: 40%;
+    line-height: 30px;
+}
+.learn-more-btn{
+    width: 220px;
+    height: 42px;
+    background: linear-gradient(to right, #ba55f9, #f87bf0);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 70px;
+}
+.learn-more-btn:hover{
+    background: linear-gradient(to right, #a629f4, #f962ef);
+    cursor: pointer;
+}
+.vector-dot{
+    width: 70%;
+    color: #dd6de5;
+    z-index: -1;
+    position: fixed;
+    top: -500px;
+    right: -130px;
+}
+.intro-img{
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    right: 70px;
+}
+.vector-img{
+    width: 5%;
+    position: fixed;
+    z-index: 1;
+    top: 70%;
+    right: 50%;
+}
